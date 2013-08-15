@@ -4,13 +4,16 @@ import javax.swing.JOptionPane;
 public class TestSandwich {
 
 	public static void main(String[] args) {
+		//Instantiate a sandwich object
 		Sandwich mySandwich = new Sandwich();
 		Sandwich juniorSandwich = new Sandwich();
-			
+		
+		//Set the values of fields in mySandwich
 		mySandwich.setMainIngredient("turkey");
 		mySandwich.setBreadType("white");
 		mySandwich.setPrice (4.55);
 		
+		//Output the details of mySandwich and juniorSandwich
 		String yourSandwich;
 		yourSandwich = JOptionPane.showInputDialog("Who wants a sandwich? ");
 			

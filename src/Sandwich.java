@@ -1,10 +1,11 @@
 
 public class Sandwich {
-	
+	//Declares variables
 	static String mainIngredient;
 	static String breadType;
 	static double price;
 	
+	//returns all the declarations
 	public String getMainIngredient() {
 		return mainIngredient;
 	}
